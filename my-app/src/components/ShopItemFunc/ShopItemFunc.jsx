@@ -20,7 +20,7 @@ export const ShopItemFunc = (props) => {
   );
 }
 
-export const ShopItemFuncCC = (props) => {
+export const ShopItemFuncCC = () => {
   const item = {
     brand: 'Tiger of Sweden',
     title: 'Leonard coat',
