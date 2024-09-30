@@ -2,7 +2,7 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
-import { ShopItemFuncCC } from './components/ShopItemFunc/ShopItemFunc';
+import { ShopItemFunc } from './components/ShopItemFunc/ShopItemFunc';
 
 function App() {
   const item = {
@@ -23,7 +23,7 @@ function App() {
       <div className='highlight-overlay'></div>
     </div>
     <div className="window">
-      <ShopItemFuncCC item={item} />
+      <ShopItemFunc item={item} />
     </div>
   </div>
   );
